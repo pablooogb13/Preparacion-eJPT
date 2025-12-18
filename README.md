@@ -1,2 +1,2 @@
 # Preparacion eJPT
- Para prepararme el eJPT, ire subiendo por aqui las máquinas que voy resolviendo.
+ Para prepararme el eJPT, ire subiendo por aquí los write-ups de las máquinas que voy resolviendo.
