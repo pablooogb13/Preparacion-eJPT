@@ -264,3 +264,5 @@ docker run -v /:/mnt --rm -it alpine chroot /mnt sh
 Ya podemos leer la segunda flag
 ## Conclusion
 
+Recorrido completo: VPN y nmap → FTP anónimo revela nota → gobuster descubre `/secret` → inyección de comandos con `eval` para obtener shell como `www-data` → `sudo -l` permite saltar a `apaar` → esteganografía en `backup.zip` + base64 dan credenciales de `anurodh` → pertenencia al grupo `docker` permite montar `/` en un contenedor y conseguir root.
+
