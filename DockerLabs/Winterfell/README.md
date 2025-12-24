@@ -33,6 +33,10 @@ Con esa lista y una recopilación de posibles users (en la propia página princi
 
 En este paso he intentado hydra pero me daba error porque no soportaba SMBv1, por tanto, he aprendido una nueva herramienta para aplicar fuerza bruta: `nxc`
 
+```bash
+nxc smb 172.17.0.2 -u users -p passwords
+```
+
 >**Nota:**
 >nxc es el comando de NetExec, una herramienta de seguridad ofensiva usada en auditorías y pruebas de penetración para enumerar y evaluar servicios de red, especialmente en entornos Windows/Active Directory. Es, en la práctica, el sucesor moderno del conocido CrackMapExec (CME).
 
