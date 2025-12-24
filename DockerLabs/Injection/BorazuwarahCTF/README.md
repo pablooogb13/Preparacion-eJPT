@@ -42,4 +42,4 @@ Sencillo, ejecutamos /bin/bash con sudo y ya somos root
 
 ## Conclusion
 
-Me ha servido para practicar esteganografía
+- Me ha servido para practicar esteganografía
